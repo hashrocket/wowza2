@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'wowza/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "wowza"
+  spec.name          = "wowza2"
   spec.version       = Wowza::VERSION
-  spec.authors       = ["Chase McCarthy"]
-  spec.email         = ["chase@code0100fun.com"]
+  spec.authors       = ["Hashrocket"]
+  spec.email         = ["dev@hashrocket.com"]
 
   spec.summary       = %q{Wowza REST API wrapper}
   spec.description   = %q{Wowza REST API wrapper. ALPHA!}
-  spec.homepage      = "https://github.com/hashrocket/wowza"
+  spec.homepage      = "https://github.com/hashrocket/wowza2"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
@@ -25,7 +25,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "mock5", "~> 1.0.8", ">= 1.0.8"
   spec.add_development_dependency "pry", "~> 0"
 
-  spec.add_dependency "indifference", "~> 0.0.1"
-  spec.add_dependency "assignment", "~> 0.0.1"
   spec.add_dependency "net-http-digest_auth", "~> 1.4"
 end
