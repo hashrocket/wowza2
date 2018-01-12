@@ -1,4 +1,4 @@
-# Wowza
+# Wowza2
 
 Ruby wrapper around the Wowza REST API.
 
@@ -7,16 +7,12 @@ Ruby wrapper around the Wowza REST API.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'wowza'
+gem 'wowza2', git: 'https://github.com/hashrocket/wowza2'
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install wowza
 
 ## Usage
 
@@ -66,7 +62,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/hashrocket/wowza. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/hashrocket/wowza2. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
